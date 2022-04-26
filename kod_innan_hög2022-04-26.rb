@@ -1,10 +1,7 @@
-
 #Detta program låter en eller två anvådare spela spelet nim. Spelet körs inom en input-loop där anvåndarna/användaren förväntas skriva in hur många pinnar de vill dra(mellan 1-3). Innan det ska spelarna ha skrivit in sina namn eller valt att spela mot en dator. Programmet skickar hela tiden ut antalet pinnar som är kvar och spelet avslutas när en person är tvungen att dra/medvetet drar sista pinnen. 
 
 #Göra nästa lektion: 
 #Dokumentera en funktion
-#Fixa högar
-#Spela in film 
 
 def pinn_slumpare()
   return rand(10..18)
